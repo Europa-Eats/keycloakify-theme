@@ -6,7 +6,7 @@
 
 # What is this?
 
-This is a fork from keycloakify's starter template. It is used to customize keycloak's styling.
+This is a of from keycloakify's starter template. It is used to customize keycloak's styling.
 It bakes all the custom styling into a single .jar file, which we can then import into our keycloak
 docker image under providers/ .
 
