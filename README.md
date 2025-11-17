@@ -4,12 +4,21 @@
     <br/>
 </p>
 
+# What is this?
+
+This is a fork from keycloakify's starter template. It is used to customize keycloak's styling.
+It bakes all the custom styling into a single .jar file, which we can then import into our keycloak
+docker image under providers/ .
+
+Currently, this process is done manually, but could be automated if we change styling often.
+
 # Quick start
 
 ```bash
-git clone https://github.com/keycloakify/keycloakify-starter
-cd keycloakify-starter
-yarn install # Or use an other package manager, just be sure to delete the yarn.lock if you use another package manager.
+git clone git@github.com:Europa-Eats/keycloakify-theme.git
+cd keycloakify-theme
+pnpm install
+pnpm approve-builds
 ```
 
 # Testing the theme locally
