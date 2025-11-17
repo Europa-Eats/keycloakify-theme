@@ -46,9 +46,28 @@
 }
 
 .kcFormCardClass {
-  border-color: #8a1518;
+    border-color: #8a1518;
 }
 
 .kcBodyClass {
-  background-image: none !important;
+    background-image: none !important;
+}
+
+
+@media (max-width: 767px) {
+    #kc-header-wrapper {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .kcFormCardClass {
+        border-top: 4px solid !important;
+        border-color: #8a1518 !important;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14) !important;
+    }
+
+    .kcBodyClass {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
 }
